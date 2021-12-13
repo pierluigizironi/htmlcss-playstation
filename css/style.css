@@ -21,9 +21,9 @@ h2 {
 /* First Jumbotron */
 
 #jumbotron {
-  background-image: url(../img/returnal-listing-thumb-01-ps5.jpg);
-  background-position: 85% 40%;
-  height: 600px;
+  background-image: url(../img/jumbo-bg.png);
+  background-position: center;
+  height: 650px;
 }
 
 #jumbotron .row {
@@ -37,10 +37,6 @@ h2 {
 /* Gallery */
 
 /* Playstation 5 */
-
-#playstation-5 {
-  height: 500px;
-}
 
 /* Jumbotron 2 */
 
