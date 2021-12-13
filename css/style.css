@@ -1,55 +1,86 @@
+/* Utilities */
+
+h2 {
+  font-size: 40px;
+}
+
+/* Header */
+
 #first-header {
   height: 30px;
 }
 
 #sony-logo {
   width: 80px;
-  text-align: right;
 }
 
-#second-header {
-  height: 75px;
-}
+/* First Jumbotron */
 
 #jumbotron {
-  height: 400px;
+  background-image: url(../img/returnal-listing-thumb-01-ps5.jpg);
+  background-position: 85% 40%;
+  height: 600px;
 }
 
-#gallery {
-  height: 100px;
+#jumbotron .row {
+  bottom: 40px;
 }
+
+#returnal-logo {
+  width: 50%;
+}
+
+/* Gallery */
+
+/* Playstation 5 */
 
 #playstation-5 {
   height: 500px;
 }
 
+/* Jumbotron 2 */
+
 #jumbotron-2 {
   height: 400px;
 }
+
+/* New Releases */
 
 #new-releases {
   height: 400px;
 }
 
+/* Playstation 4 */
+
 #playstation-4 {
   height: 400px;
 }
+
+/* Playstation Plus */
 
 #ps-plus {
   height: 300px;
 }
 
+/* Discount */
+
 #sales {
   height: 300px;
 }
+
+/* Ps Now */
 
 #ps-now {
   height: 300px;
 }
 
+/* Social media */
+
 #social {
   height: 500px;
 }
+
+/* Footer */
 
 footer {
   height: 500px;
