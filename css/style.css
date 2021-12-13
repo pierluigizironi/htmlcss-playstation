@@ -4,6 +4,10 @@ h2 {
   font-size: 40px;
 }
 
+.round-img {
+  border-radius: 20px;
+}
+
 /* Header */
 
 #first-header {
