@@ -1,5 +1,10 @@
+#first-header {
+  height: 30px;
+}
+
 #sony-logo {
-  width: 50px;
+  width: 80px;
+  text-align: right;
 }
 
 #second-header {
