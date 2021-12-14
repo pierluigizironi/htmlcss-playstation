@@ -6,6 +6,22 @@ body {
 
 /* Utilities */
 
+.btn-primary {
+  border: #0d6efd 2px solid;
+}
+
+.btn-dark {
+  border: black 2px solid;
+}
+
+.btn-danger {
+  border: #dc3545 2px solid;
+}
+
+.btn-light {
+  border: white 2px solid;
+}
+
 h2 {
   font-size: 40px;
 }
@@ -22,6 +38,14 @@ h2 {
 .chevron {
   width: 10px;
   margin: 0px 5px;
+}
+
+.btn:hover {
+  box-shadow: inset 0px 0px 0px 2px white;
+}
+
+.btn-light:hover {
+  box-shadow: inset 0px 0px 0px 2px black;
 }
 
 /* Header */
