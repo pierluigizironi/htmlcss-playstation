@@ -31,12 +31,8 @@ h2 {
   height: 650px;
 }
 
-#jumbotron .row {
-  bottom: 40px;
-}
-
 #returnal-logo {
-  width: 50%;
+  width: 300px;
 }
 
 /* Gallery */
@@ -49,7 +45,10 @@ h2 {
   background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
   background-position: center;
   background-size: cover;
-  height: 550px;
+}
+
+#it-takes-two-logo {
+  width: 300px;
 }
 
 /* New Releases */
@@ -63,7 +62,9 @@ h2 {
 /* Playstation Plus */
 
 #ps-plus {
-  background-color: #bebcbb;
+  background: url(../img/ps-plus-april-monthly-games-featured-image-block.png) no-repeat #bebcbb;
+  background-size: 300px 320px;
+  background-position: 90% 0%;
 }
 
 /* Discount */
@@ -98,4 +99,10 @@ footer ul {
 
 #sie-logo {
   width: 150px;
+}
+
+@media screen and (max-width: 768px) {
+  #ps-plus {
+    background-image: none;
+  }
 }
