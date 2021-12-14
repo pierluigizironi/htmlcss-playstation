@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
+    <header class="position-fixed-top  w-100">
         <!-- First Header -->
         <div id="first-header" class="container-fluid bg-dark">
             <div class="row h-100">
@@ -28,18 +28,38 @@
               <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" href="#">Giochi <img class="chevron" src="img/chevron-down-solid.svg" alt="chevron"></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
+                    <a class="nav-link" href="#">Hardware <img class="chevron" src="img/chevron-down-solid.svg" alt="chevron"></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
+                    <a class="nav-link" href="#">Servizi <img class="chevron" src="img/chevron-down-solid.svg" alt="chevron"></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Novità <img class="chevron" src="img/chevron-down-solid.svg" alt="chevron"></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Fai acquisti <img class="chevron" src="img/chevron-down-solid.svg" alt="chevron"></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Supporto <img class="chevron" src="img/chevron-down-solid.svg" alt="chevron"></a>
                   </li>
                 </ul>
-                <span class="navbar-text">
-                  Navbar text with an inline element
-                </span>
+                <div class="navbar-nav">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">My Playstation <img class="chevron" src="img/chevron-down-solid.svg" alt="chevron"></a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="btn btn-dark rounded-pill">Accedi</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#"><img class="w-50" src="img/lens.svg" alt="lens"></a>
+                        </li>
+                        </li>
+                      </ul>
+                </div>
               </div>
             </div>
           </nav>
@@ -48,7 +68,7 @@
         <!-- Jumbotron -->
         <div id="jumbotron" class="container-fluid">
             <div class="row pb-5 h-100 d-flex align-items-end">
-                <div class="col text-white">
+                <div class="col col-xxl-4 text-white">
                     <img id="returnal-logo" src="img/returnal-hero-banner-logo.png" alt="returnal logo">
                     <h2 class="my-4" >Rompi il cerchio</h2>
                     <p class="fw-bold my-3">Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni con ogni rinascita in questo thriller fantascientifico, disponibile in esclusiva su PS5.</p>
@@ -59,12 +79,12 @@
         <!-- Gallery -->
         <div id="gallery" class="container-fluid bg-white">
             <div class="row gy-3 py-4">
-                <div class="col-6 col-sm-4"><img class="img-fluid round-img" src="img/returnal-listing-thumb-01-ps5.jpg" alt=""></div>
-                <div class="col-6 col-sm-4"><img class="img-fluid round-img" src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt=""></div>
-                <div class="col-6 col-sm-4"><img class="img-fluid round-img" src="img/returnal-listing-thumb-01-ps5.jpg" alt=""></div>
-                <div class="col-6 col-sm-4"><img class="img-fluid round-img" src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt=""></div>
-                <div class="col-6 col-sm-4"><img class="img-fluid round-img" src="img/returnal-listing-thumb-01-ps5.jpg" alt=""></div>
-                <div class="col-6 col-sm-4"><img class="img-fluid round-img" src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt=""></div>
+                <div class="col-6 col-sm-4 col-xxl-2"><img class="img-fluid round-img" src="img/returnal-listing-thumb-01-ps5.jpg" alt=""></div>
+                <div class="col-6 col-sm-4 col-xxl-2"><img class="img-fluid round-img" src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt=""></div>
+                <div class="col-6 col-sm-4 col-xxl-2"><img class="img-fluid round-img" src="img/returnal-listing-thumb-01-ps5.jpg" alt=""></div>
+                <div class="col-6 col-sm-4 col-xxl-2"><img class="img-fluid round-img" src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt=""></div>
+                <div class="col-6 col-sm-4 col-xxl-2"><img class="img-fluid round-img" src="img/returnal-listing-thumb-01-ps5.jpg" alt=""></div>
+                <div class="col-6 col-sm-4 col-xxl-2"><img class="img-fluid round-img" src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt=""></div>
             </div>
         </div>
         <!-- Playstation 5 -->
@@ -79,7 +99,7 @@
             </div>
             <!-- Playstation 5 Images -->
             <div class="row">
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-md-6 align-self-center">
                     <h2>Console Playstation 5</h2>
                     <h5 class="text-black-50 py-3">Sperimenta la nuova generazione di incredibili giochi Playstation</h5>
                     <a class="btn btn-primary rounded-pill fw-bold">Maggiori Informazioni</a>
@@ -114,10 +134,10 @@
         <!-- Jumbotron 2 -->
         <div id="jumbotron-2" class="container-fluid">
             <div class="row py-5">
-                <div class="col-8">
+                <div class="col-8 col-xxl-12">
                     <img id="it-takes-two-logo" class="img-fluid" src="img/it-takes-two-logo.png" alt="It takes two logo">
                 </div>
-                <div class="col-12 text-white">
+                <div class="col-12 col-xxl-4 text-white">
                     <h2>Un'avventura cooperativa selvaggia ti attende</h2>
                     <p class="fw-bold">Trova un amico e partite insieme per l'avventura più folle delle vostre vite in Takes Two, Un gioco d'avventura cooperativa a piattaforme che stravolge il suo genere.</p>
                     <a class="btn btn-danger rounded-pill fw-bold">Acquista Ora</a>
@@ -133,53 +153,53 @@
                 </div>
             </div>
             <div class="row fw-bold gy-5 pb-5">
-                <div class="col-6 col-sm-4">
+                <div class="col-6 col-sm-4 col-xxl-2">
                     <img class="img-fluid round-img" src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="Tony Hawks">
                     <span>Tony Hawk's&trade; Pro Skater&trade; 1 + 2</span>
                 </div>
-                <div class="col-6 col-sm-4">
+                <div class="col-6 col-sm-4 col-xxl-2">
                     <img class="img-fluid round-img" src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="Crash Bandicoot">
                     <span>Crash Bandicoot 4: It's About Time</span>
                 </div>
-                <div class="col-6 col-sm-4">
+                <div class="col-6 col-sm-4 col-xxl-2">
                     <img class="img-fluid round-img" src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="Tony Hawks">
                     <span>Tony Hawk's&trade; Pro Skater&trade; 1 + 2</span>
                 </div>
-                <div class="col-6 col-sm-4">
+                <div class="col-6 col-sm-4 col-xxl-2">
                     <img class="img-fluid round-img" src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="Crash Bandicoot">
                     <span>Crash Bandicoot 4: It's About Time</span>
                 </div>
-                <div class="col-6 col-sm-4">
+                <div class="col-6 col-sm-4 col-xxl-2">
                     <img class="img-fluid round-img" src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="Tony Hawks">
                     <span>Tony Hawk's&trade; Pro Skater&trade; 1 + 2</span>
                 </div>
-                <div class="col-6 col-sm-4">
+                <div class="col-6 col-sm-4 col-xxl-2">
                     <img class="img-fluid round-img" src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="Crash Bandicoot">
                     <span>Crash Bandicoot 4: It's About Time</span>
                 </div>
             </div>
             <div class="row text-white fw-bold gy-5">
-                <div class="col-6 col-sm-4">
+                <div class="col-6 col-sm-4 col-xxl-2">
                     <img class="img-fluid round-img" src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="Tony Hawks">
                     <span>Tony Hawk's&trade; Pro Skater&trade; 1 + 2</span>
                 </div>
-                <div class="col-6 col-sm-4">
+                <div class="col-6 col-sm-4 col-xxl-2">
                     <img class="img-fluid round-img" src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="Crash Bandicoot">
                     <span>Crash Bandicoot 4: It's About Time</span>
                 </div>
-                <div class="col-6 col-sm-4">
+                <div class="col-6 col-sm-4 col-xxl-2">
                     <img class="img-fluid round-img" src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="Tony Hawks">
                     <span>Tony Hawk's&trade; Pro Skater&trade; 1 + 2</span>
                 </div>
-                <div class="col-6 col-sm-4">
+                <div class="col-6 col-sm-4 col-xxl-2">
                     <img class="img-fluid round-img" src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="Crash Bandicoot">
                     <span>Crash Bandicoot 4: It's About Time</span>
                 </div>
-                <div class="col-6 col-sm-4">
+                <div class="col-6 col-sm-4 col-xxl-2">
                     <img class="img-fluid round-img" src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="Tony Hawks">
                     <span>Tony Hawk's&trade; Pro Skater&trade; 1 + 2</span>
                 </div>
-                <div class="col-6 col-sm-4">
+                <div class="col-6 col-sm-4 col-xxl-2">
                     <img class="img-fluid round-img" src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="Crash Bandicoot">
                     <span>Crash Bandicoot 4: It's About Time</span>
                 </div>
@@ -245,7 +265,7 @@
         <!-- Playstation Now -->
         <div id="ps-now" class="container-fluid py-5">
             <div class="row text-white fw-bold">
-                <div class="col-md-6">
+                <div class="col-md-6 align-self-center">
                     <img class="img-fluid w-50" src="img/ps-now-logo-two-column.png" alt="PS Plus Logo">
                     <p class="py-4">Ottieni l'accesso immediato a una vastissima raccolta di oltre 800 giochi per PS4, PS3 e PS2 su PS4 o PC Windows, con nuovi titoli aggiunti ogni mese</p>
                     <a class="btn btn-light rounded-pill fw-bold">Esplora Playstation Now</a>
@@ -281,12 +301,12 @@
     <!-- Footer -->
     <footer class="container-fluid text-white">
         <div class="row py-5 h-100">
-            <div class="col-12">
+            <div class="col-12 col-xxl-6">
                 <img class="img-fluid d-block mb-4" src="img/ps-footer.svg" alt="Playstation Logo">
                 <img id="globe" class="m-2" src="img/language-globe.svg" alt="Language Globe">
                 <span>Country / Region: Italy</span>
             </div>
-            <div class="col-12 col-md-4 mt-4">
+            <div class="col-12 col-md-4 col-xxl-2 mt-4 mt-xxl-0">
                 <ul>
                     <li><a href="#">Link footer n</a></li>
                     <li><a href="#">Link footer n</a></li>
@@ -295,7 +315,7 @@
                     <li><a href="#">Link footer n</a></li>
                 </ul>
             </div>
-            <div class="col-12 col-md-4 mt-md-4">
+            <div class="col-12 col-md-4 col-xxl-2 mt-md-4 mt-xxl-0">
                 <ul>
                     <li><a href="#">Link footer n</a></li>
                     <li><a href="#">Link footer n</a></li>
@@ -305,7 +325,7 @@
                     <li><a href="#">Link footer n</a></li>
                     <li><a href="#">Link footer n</a></li>
             </div>
-            <div class="col-12 col-md-4 mt-md-4">
+            <div class="col-12 col-md-4 col-xxl-2 mt-md-4 mt-xxl-0">
                 <ul>
                     <li><a href="#">Link footer n</a></li>
                     <li><a href="#">Link footer n</a></li>
@@ -315,7 +335,7 @@
         </div>
         <!-- Copyright -->
         <div class="row pb-4">
-            <div class="col">
+            <div class="col col-xxl-6">
                 <img id="sie-logo" class="mb-2" src="img/sie-logo.svg" alt="Playstation Logo">
                 <p>Website ©2021 Sony Interactive Entertainment Europe Limited. Tutti i contenuti, nomi dei giochi, nomi commerciali e/o di abbigliamento, marchi registrati, grafica e immagini associati sono marchi registrati e/o materiale protetto da copyright dei rispettivi proprietari. Tutti i diritti riservati. <a class="text-white" href="#">Maggiori Info</a></p>
             </div>

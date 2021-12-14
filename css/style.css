@@ -13,6 +13,11 @@ h2 {
   color: blue;
 }
 
+.chevron {
+  width: 10px;
+  margin: 0px 5px;
+}
+
 /* Header */
 
 #first-header {
@@ -23,11 +28,16 @@ h2 {
   width: 80px;
 }
 
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+}
+
 /* First Jumbotron */
 
 #jumbotron {
   background-image: url(../img/jumbo-bg.png);
   background-position: center;
+  background-size: cover;
   height: 650px;
 }
 
