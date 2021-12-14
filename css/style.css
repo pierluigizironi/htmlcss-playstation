@@ -48,6 +48,19 @@ h2 {
   box-shadow: inset 0px 0px 0px 2px black;
 }
 
+.ps-5-accessory {
+  filter: opacity(50%);
+}
+
+.ps-5-accessory:hover {
+  filter: opacity(100%);
+  cursor: pointer;
+}
+
+.active-image {
+  border-bottom: #2072ce solid 4px;
+}
+
 /* Header */
 
 #first-header {
