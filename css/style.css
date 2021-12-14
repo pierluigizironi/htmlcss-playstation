@@ -79,5 +79,23 @@ h2 {
 /* Footer */
 
 footer {
-  height: 500px;
+  background-color: #16439c;
+  font-size: 0.9em;
+}
+
+#globe {
+  width: 20px;
+}
+
+footer ul a {
+  color: white;
+  text-decoration: none;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+#sie-logo {
+  width: 150px;
 }
