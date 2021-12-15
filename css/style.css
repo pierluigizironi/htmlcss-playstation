@@ -61,6 +61,10 @@ h2 {
   color: #2072ce;
 }
 
+.nav-item:hover .chevron {
+  filter: invert(35%) sepia(50%) saturate(2514%) hue-rotate(196deg) brightness(87%) contrast(84%);
+}
+
 .active-image {
   border-bottom: #2072ce solid 4px;
 }
